@@ -1,5 +1,5 @@
 {
-  "name": "module-13-challenge-orm",
+  "name": "social-network-api",
   "version": "1.0.0",
   "description": "An API for a social network web application where users can share their thoughts, react to friend's thoughts, and create a friend list.",
   "main": "server.js",
@@ -9,14 +9,11 @@
     "watch": "nodemon server.js",
     "seed": "node seeds/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@work.github.com:coding-boot-camp/module-13-challenge-orm.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@faker-js/faker": "^6.2.0",
     "nodemon": "^2.0.3"
   },
   "dependencies": {
