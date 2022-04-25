@@ -4,10 +4,10 @@ const seedThoughts = require("./thought-seed");
 
 const seedAll = async () => {
   await seedUsers(5);
-  console.log("user seeded");
+  console.log("User seeded");
 
   await seedThoughts(5);
-  console.log("thoughts seeded");
+  console.log("Thoughts seeded");
 
   process.exit(0);
 };

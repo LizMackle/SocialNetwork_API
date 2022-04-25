@@ -12,7 +12,7 @@ async function seedThoughts(numbers) {
     const randomUser = await getRandomModel(User);
 
     const created = await Thought.create({
-      thoughtText: faker.lorem.sentence(10),
+      thought_text: faker.lorem.sentence(10),
 
       reactions: [
         {
