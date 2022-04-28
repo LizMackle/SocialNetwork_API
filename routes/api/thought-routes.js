@@ -73,7 +73,7 @@ router.delete("/:id", async (req, res) => {
 });
 
 // POST reaction
-router.post("/:thoughtId/reaction", async (req, res) => {
+router.post("/:thoughtId/reactions", async (req, res) => {
   try {
     const addReactionToThought = await Thought.findOneAndUpdate(
       { _id: req.params.thoughtId },
