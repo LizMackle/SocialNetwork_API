@@ -29,7 +29,8 @@ Seed the database<br>
 Start the server<br>
 `npm start`
   
-### [Deployed Link]()
+### [Walkthrough video](https://drive.google.com/file/d/1GycR8U05aQFQBRG2_XhddsU9GVjQ48op/view)
+![capture](https://user-images.githubusercontent.com/93589073/165720071-920ad965-6021-4d25-9a4f-7c7d870c57db.png)
 
 ## Contribution
 Please feel free to contribute in any way by forking the repo and creating a pull request.
