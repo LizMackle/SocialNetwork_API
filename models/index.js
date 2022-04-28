@@ -1,4 +1,4 @@
-// import models
+// IMPORT MODELS
 const User = require("./User");
 const Thought = require("./Thought");
 

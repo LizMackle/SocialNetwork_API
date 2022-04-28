@@ -10,7 +10,6 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(routes);
 
-// sync models to the database, then turn on the server
 db.once("open", () => {
   app.listen(PORT, () => {
     console.log(`App listening on port ${PORT}!`);
